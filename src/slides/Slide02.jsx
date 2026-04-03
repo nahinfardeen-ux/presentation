@@ -22,7 +22,7 @@ export default function Slide02() {
             6+ Months
           </p>
           <p className="mt-2 font-dm text-sm text-[var(--pres-muted)]">
-            Development &amp; Database Design
+            Development &amp; Schema Design
           </p>
         </div>
         <div>
