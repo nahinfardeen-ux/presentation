@@ -49,14 +49,6 @@ export default function Slide12() {
             <p className="mt-3 text-lg leading-relaxed text-[var(--pres-muted)]">
               Build and launch real products with AI. Join Brandon Groce's masterclass on <strong>April 16th</strong> at IxDF.
             </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <button className="flex-1 cursor-pointer rounded-full bg-[var(--pres-accent)] px-8 py-4 text-center font-bold text-white shadow-lg transition-all hover:scale-105 active:scale-95">
-                Register on IxDF
-              </button>
-              <button className="flex-1 cursor-pointer rounded-full border border-[var(--pres-border)] bg-white px-8 py-4 text-center font-bold text-[var(--pres-text)] shadow-sm transition-all hover:bg-gray-50 active:scale-95">
-                Invite Colleague
-              </button>
-            </div>
           </div>
         </div>
       </div>
