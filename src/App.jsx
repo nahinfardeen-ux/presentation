@@ -13,8 +13,6 @@ import Slide08 from "./slides/Slide08";
 import Slide09 from "./slides/Slide09";
 import Slide10 from "./slides/Slide10";
 import Slide11 from "./slides/Slide11";
-import Slide12 from "./slides/Slide12";
-import Slide13 from "./slides/Slide13";
 
 const slides = [
   Slide01,
@@ -28,8 +26,6 @@ const slides = [
   Slide09,
   Slide10,
   Slide11,
-  Slide12,
-  Slide13,
 ];
 
 export default function App() {
