@@ -17,9 +17,6 @@ export default function Slide12() {
         <h1 className="font-display text-4xl font-semibold leading-[1.12] tracking-tight sm:text-5xl md:text-6xl md:leading-[1.08] lg:text-[76px] lg:leading-[1.05]">
           The Future of Design
         </h1>
-        <p className="mt-8 max-w-xl font-dm text-base leading-relaxed text-[var(--pres-muted)] sm:text-lg md:text-[20px]">
-          Social proof from mentor <strong>Brandon Groce</strong> on the "Vibe Coding" workflow.
-        </p>
       </div>
 
       <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:gap-12">

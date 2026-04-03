@@ -24,7 +24,7 @@ export function SlideWrapper({ children, direction }) {
   return (
     <MotionDiv
       layout={false}
-      className="pointer-events-auto absolute inset-0 flex min-h-0 w-full items-center justify-center px-6 py-12 sm:px-12 md:px-16 lg:px-24 presentation-scale"
+      className="pointer-events-auto absolute inset-0 flex min-h-0 w-full items-center justify-center px-6 pt-32 pb-20 sm:px-12 md:px-16 lg:px-24 presentation-scale"
       custom={direction}
       variants={slideVariants}
       initial="enter"
