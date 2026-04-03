@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-dm: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  /* Light theme — black accent, WCAG-friendly contrast on #f4f4f5 */
+  --pres-bg: #f4f4f5;
+  --pres-text: #0a0a0a;
+  /* ~7.3:1 on --pres-bg (AA normal text); ~4.8:1 minimum maintained on cards */
+  --pres-muted: #474747;
+  --pres-card: #ffffff;
+  --pres-pill: #ebebeb;
+  --pres-border: #d4d4d8;
+  --pres-border-hover: #a3a3a3;
+  --pres-code-bg: #ececee;
+  --pres-code-text: #262626;
+  --pres-nav-hover: #e4e4e7;
+  /* Accent = black (replaces former green) */
+  --pres-accent: #0a0a0a;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-dm);
+  background-color: var(--pres-bg);
+  color: var(--pres-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (max-width: 767px) {
+  .presentation-scale {
+    font-size: 88%;
+  }
+}
