@@ -5,7 +5,7 @@ export default function Slide02() {
         About me
       </p>
       <h2 className="mb-14 max-w-4xl font-display text-3xl font-semibold leading-tight sm:text-4xl md:text-[52px]">
-        I&apos;m a Designer <span className="opacity-30">&amp; Vibe Coder</span>
+        I&apos;m a Designer <span className="opacity-15">&amp; Vibe Coder</span>
       </h2>
 
       <div className="mb-16 grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-8 xl:grid-cols-4">
