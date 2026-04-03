@@ -48,6 +48,12 @@ const Arrow = ({ prominent }) => (
   </span>
 );
 
+const DownArrow = () => (
+  <div className="flex h-6 w-6 items-center justify-center text-[var(--pres-muted)] opacity-50 sm:h-8 sm:w-8">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+  </div>
+);
+
 export default function Slide04() {
   return (
     <div className="flex w-full flex-col">
@@ -67,7 +73,7 @@ export default function Slide04() {
               <Arrow />
             </Fragment>
           ))}
-          <span className="h-px w-8 bg-[var(--pres-border)] border-dashed border-t" />
+          <DownArrow />
         </div>
 
         {/* Row 2: Execution & Delivery */}
